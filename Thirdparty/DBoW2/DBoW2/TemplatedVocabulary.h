@@ -24,7 +24,7 @@
 #include <fstream>
 #include <string>
 #include <algorithm>
-#include <opencv/cv.h>
+#include <opencv2/core/core.hpp>
 #include <limits>
 
 #include "FeatureVector.h"

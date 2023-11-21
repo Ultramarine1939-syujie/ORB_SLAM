@@ -51,10 +51,12 @@
 #ifndef PNPSOLVER_H
 #define PNPSOLVER_H
 
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
+#include<opencv2/core/core_c.h>
+#include <opencv2/core/types_c.h>
 #include "MapPoint.h"
 #include "Frame.h"
-
+using namespace cv;
 namespace ORB_SLAM
 {
 

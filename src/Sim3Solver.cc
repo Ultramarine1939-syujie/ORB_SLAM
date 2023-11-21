@@ -22,13 +22,18 @@
 
 #include <vector>
 #include <cmath>
-#include <opencv/cv.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core/core_c.h>
+#include <opencv2/core/types_c.h>
+
+
 #include <ros/ros.h>
 
 #include "KeyFrame.h"
 #include "ORBmatcher.h"
 
 #include "Thirdparty/DBoW2/DUtils/Random.h"
+using namespace cv;
 
 namespace ORB_SLAM
 {
