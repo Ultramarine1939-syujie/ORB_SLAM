@@ -2,6 +2,8 @@
 
 首先添加ROS环境变量，然后分别在第三方文件下编译好各个库
 
+![log seeking](demo.png "Logo Title Text 1")
+
 ### 环境配置
 
 1、打开ORB_SLAM/src文件夹下的ORBextractor.cc文件，添加两个头文件：
